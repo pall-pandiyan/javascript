@@ -16,6 +16,18 @@ shoppingList.forEach(item => {
     sum += item[3];
 });
 
-console.log("\t\t\t----------");
+console.log("\t\t\t-----------");
 console.log("\t\t\tSum \t$" + sum);
-console.log("\t\t\t----------");
+console.log("\t\t\t-----------");
+
+// the output will be...
+// Shopping List:
+
+//         Name    Qty     Rate    Amount
+//         ----    ---     ----    ------
+//         apples  1       10      10
+//         oranges 2       12      24
+//         eggs    1       15      15
+//                         -----------
+//                         Sum     $49
+//                         -----------
