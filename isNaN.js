@@ -10,6 +10,8 @@ console.log("isNan(x)", isNaN(x));
 console.log("isNan(y)", isNaN(y));
 console.log("isNan(z)", isNaN(z));
 
+console.log("typeof(x)", typeof x);
+
 // the output will be...
 
 // X is NaN
